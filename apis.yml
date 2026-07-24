@@ -1,8 +1,27 @@
 aid: brooktrout-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brooktrout-technology.png
 name: Brooktrout Technology
-description: Brooktrout Technology is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Brooktrout Technology, Inc. was a Needham, Massachusetts telecommunications company founded in 1984 that
+  designed fax and voice-processing hardware and software for computer telephony integration (CTI), including
+  the TR114 and TR1034 fax boards and the SR140 host-based (software) fax product. Its developer kit, the
+  Brooktrout SDK, provided C/C++ APIs for building fax, voice, and unified-messaging applications. Brooktrout
+  was acquired by Excel Switching in 2000 (forming Brooktrout Technology / Excel), and the Brooktrout product
+  line later became part of Dialogic, which continues to ship and document the Dialogic Brooktrout SDK. The
+  brooktrout.com domain now redirects to Dialogic; Brooktrout survives as a legacy product brand rather than an
+  independent company, and it has no standalone modern web-API developer surface. Surfaced as a portfolio
+  company of Battery Ventures and added to the API Evangelist network as a stub lead.
 url: https://raw.githubusercontent.com/api-evangelist/brooktrout-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-successor: dialogic
+x-status: defunct-absorbed
 tags:
 - Company
+- Fax
+- Telephony
+- Voice
+- Computer Telephony Integration
+- Unified Communications
+- SDK
+- Legacy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
